@@ -1,5 +1,5 @@
 package model;
-
+//实现model中的Book类
 public class Book {
     private int id;
     private String name;
