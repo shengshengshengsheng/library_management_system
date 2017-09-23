@@ -7,7 +7,7 @@ import Dao.Dao;
 public class BookModle extends AbstractTableModel{
 
 	/**
-	 * Í¼ÊéµÄtableÊı¾İÄ£ĞÍ
+	 * å›¾ä¹¦çš„tableæ•°æ®æ¨¡å‹ï¼Œå®ç°book
 	 */
 	private static final long serialVersionUID = 1L;
 	
@@ -16,9 +16,9 @@ public class BookModle extends AbstractTableModel{
 	
 	public BookModle(Book book){
 
-		//µÃµ½¹²ÓÃ¶àÉÙÖÖÀàĞÍµÄÊé
+		//å¾—åˆ°å…±ç”¨å¤šå°‘ç§ç±»å‹çš„ä¹¦
 		rowDate=Dao.getBooks(book);
-		//µÃµ½ÁĞÃû
+		//å¾—åˆ°åˆ—å
 		columnName=Dao.getColumnName();
 	}
 
